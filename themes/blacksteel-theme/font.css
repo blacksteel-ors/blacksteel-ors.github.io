@@ -11,26 +11,34 @@
 }
 
 .font-larger {
-    font-size: 26px;
+    font-size: larger;
 }
 
 .font-xlarge {
     font-size: x-large;
 }
 
+.font-xxlarge {
+    font-size: xx-large;
+}
+
+.center-text {
+    text-align: center;
+}
+
 @font-face {
     font-family: 'InterBlack';
-    src: url("Inter/static/Inter_18pt-Black.ttf")
+    src: url("Inter/static/Inter_24pt-Black.ttf")
 }
 
 @font-face {
     font-family: 'InterThin';
-    src: url("Inter/static/Inter_18pt-Thin.ttf")
+    src: url("Inter/static/Inter_24pt-Thin.ttf")
 }
 
 @font-face {
     font-family: 'InterLight';
-    src: url("Inter/static/Inter_18pt-Light.ttf")
+    src: url("Inter/static/Inter_24pt-Light.ttf")
 }
 
 .main-font {

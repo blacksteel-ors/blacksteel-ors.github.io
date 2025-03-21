@@ -2,8 +2,16 @@
     background-color: black;
 }
 
+.bg-content {
+    background-color: #202020;
+}
+
 .bg-highlight {
-    background-color: yellow;
+    background-color: #fad727;
+}
+
+.bd-content {
+    border-color: #fad727 !important;
 }
 
 .font-color-main {

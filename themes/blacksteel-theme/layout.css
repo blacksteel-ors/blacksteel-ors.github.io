@@ -3,19 +3,72 @@
     max-width: 100px;
 }
 
+.max-width-80px {
+    max-width: 80px;
+}
+
+.max-height-65px {
+    max-height: 65px;
+}
+
+.sticky-on-top {
+    position: sticky;
+    top: 0;
+}
+
 body, p {
     padding: 0;
     margin: 0;
 }
 
+header {
+    z-index: 2;
+}
+
 main {
-    padding: 0px 100px;
-    padding-top: 50px;
+    padding: 50px 100px;
+}
+
+.tier {
+    display: grid;
+    grid-template-columns: 180px calc(100% - 188px);
+    justify-content: space-between;
+    min-height: 110px;
+}
+
+.tier-title {
+    height: 45px;
+    width: 60px;
+}
+
+.operator-profile {
+    position: relative;
+    width: 94px;
+    height: 94px;
+    margin: 0 6px 6px 0;
+}
+.operator-profile > div {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: border-top 200ms;
+}
+.operator-profile:hover > div {
+    border-top: 94px solid;
+}
+.operator-profile > img {
+    position: absolute;
+    width: 94px;
+    height: 94px;
 }
 
 .no-pad-mar {
     padding: 0;
     margin: 0;
+}
+
+.pad8px {
+    padding: 8px;
 }
 
 .pad10px {
@@ -26,8 +79,28 @@ main {
     padding: 15px;
 }
 
+.martop8px {
+    margin-top: 8px;
+}
+
+.martop15px {
+    margin-top: 15px;
+}
+
+.borinner {
+    box-sizing: border-box;
+}
+
+.bortop5px {
+    border-top: 5px solid;
+}
+
 .bor3px {
     border: 3px solid;
+}
+
+.bor5px {
+    border: 5px solid;
 }
 
 .flex-hor {
@@ -35,6 +108,20 @@ main {
     flex-direction: row;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .align-center {
     align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        padding: 10px;
+    }
 }
