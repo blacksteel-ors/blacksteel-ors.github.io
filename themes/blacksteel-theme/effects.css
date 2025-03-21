@@ -1,0 +1,19 @@
+.text-glow-strong {
+    text-shadow: 0px 0px 3px;
+}
+.text-glow-medium {
+    text-shadow: 0px 0px 10px;
+}
+.text-glow-weak {
+    text-shadow: 0px 0px 20px;
+}
+
+.box-glow-strong {
+    box-shadow: 0px 0px 3px;
+}
+.box-glow-medium {
+    box-shadow: 0px 0px 10px;
+}
+.box-glow-weak {
+    box-shadow: 0px 0px 20px;
+}

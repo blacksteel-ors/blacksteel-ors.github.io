@@ -1,0 +1,23 @@
+.bg-main {
+    background-color: black;
+}
+
+.bg-highlight {
+    background-color: yellow;
+}
+
+.font-color-main {
+    color: white;
+}
+
+.filter-dark {
+    filter: brightness(0%);
+}
+
+.disclaimer {
+    background-color: #ff24246c;
+    color: #FF3030;
+    text-shadow: red;
+    box-shadow: rgba(255, 0, 0, 0.14);
+    border-color: #FF3C3C
+}

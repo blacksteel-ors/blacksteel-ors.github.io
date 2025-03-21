@@ -1,0 +1,40 @@
+.max-square-30px {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+body, p {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 0px 100px;
+    padding-top: 50px;
+}
+
+.no-pad-mar {
+    padding: 0;
+    margin: 0;
+}
+
+.pad10px {
+    padding: 10px;
+}
+
+.pad15px {
+    padding: 15px;
+}
+
+.bor3px {
+    border: 3px solid;
+}
+
+.flex-hor {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-center {
+    align-items: center;
+}
