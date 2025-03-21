@@ -134,4 +134,13 @@ main {
         display: flex;
         flex-direction: column;
     }
+
+    .align-center-mobile {
+        align-items: center;
+    }
+
+    .justify-center-mobile {
+        justify-content: center;
+    }
+
 }
