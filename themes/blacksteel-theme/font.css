@@ -22,6 +22,10 @@
     font-size: xx-large;
 }
 
+.font-xxxlarge {
+    font-size: 48px;
+}
+
 .center-text {
     text-align: center;
 }

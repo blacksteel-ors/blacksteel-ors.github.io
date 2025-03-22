@@ -125,6 +125,10 @@ main {
     justify-content: center;
 }
 
+.show-on-mobile {
+    visibility: collapse;
+}
+
 @media only screen and (max-width: 800px) {
     main {
         padding: 10px;
@@ -141,6 +145,14 @@ main {
 
     .justify-center-mobile {
         justify-content: center;
+    }
+
+    .hide-on-mobile {
+        visibility: collapse;
+    }
+
+    .show-on-mobile {
+        visibility: visible;
     }
 
 }
