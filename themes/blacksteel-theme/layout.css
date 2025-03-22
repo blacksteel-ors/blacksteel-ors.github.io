@@ -155,7 +155,11 @@ main {
 }
 
 .show-on-mobile {
-    visibility: collapse;
+    visibility: hidden;
+}
+
+.mobile-spacer-50px {
+    height: 0px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -182,6 +186,11 @@ main {
 
     .show-on-mobile {
         visibility: visible;
+    }
+
+    
+    .mobile-spacer-50px {
+        height: 50px;
     }
 
 }
