@@ -26,6 +26,10 @@
     font-size: 48px;
 }
 
+.font-1-2vw {
+    font-size: 1.2vw;
+}
+
 .center-text {
     text-align: center;
 }
@@ -64,4 +68,10 @@
 }
 .content-font-2 {
     font-family: InriaSansLight;
+}
+
+@media only screen and (max-width: 800px) {
+    .mobile-font-medium {
+        font-size: medium;
+    }
 }

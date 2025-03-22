@@ -1,6 +1,16 @@
-.max-square-30px {
+.max-square-100px {
     max-height: 100px;
     max-width: 100px;
+}
+
+.max-square-90px {
+    max-height: 90px;
+    max-width: 90px;
+}
+
+.max-square-30px {
+    max-height: 30px;
+    max-width: 30px;
 }
 
 .max-width-80px {
@@ -9,6 +19,23 @@
 
 .max-height-65px {
     max-height: 65px;
+}
+
+.fill100per {
+    height: 100%;
+    width: 100%;
+}
+
+.overflowy-scroll {
+    overflow-y: scroll;
+}
+
+.hide-scroll {
+    scrollbar-width: none;
+}
+
+.minheight10vw {
+    min-height: 10vw;
 }
 
 .sticky-on-top {
@@ -84,6 +111,10 @@ main {
     padding: 15px;
 }
 
+.pad25px {
+    padding: 25px;
+}
+
 .padtopbot8px{
     padding: 8px 0px;
 }
@@ -155,16 +186,58 @@ main {
 }
 
 .show-on-mobile {
-    visibility: hidden;
+    display: none;
 }
 
 .mobile-spacer-50px {
     height: 0px;
 }
 
+.grid12vw2x6{
+    display: grid;
+    grid-template-columns: 12vw 12vw 12vw 12vw 12vw 12vw;
+    grid-template-rows: 12vw 12vw;
+}
+
+.grid15vw3x6{
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
+    grid-template-rows: 15vw 15vw 15vw;
+}
+
+.grid12vw3x3 {
+    display:grid;
+    grid-template-columns: 12vw 12vw 12vw;
+    grid-template-rows: 12vw 12vw 12vw;
+}
+
+.griditem2x2 {
+    grid-area: auto / auto / span 2 / span 2;
+}
+
+.griditem2x3 {
+    grid-area: auto / auto / span 2 / span 3;
+}
+
+.griditem1x2 {
+    grid-area: auto / auto / span 1 / span 2;
+}
+
+.griditem1x3 {
+    grid-area: auto / auto / span 1 / span 3;
+}
+
+.gridgap11px {
+    gap: 11px;
+}
+
 @media only screen and (max-width: 800px) {
     main {
         padding: 10px;
+    }
+
+    .mobile-padding2vw {
+        padding: 3vw;
     }
 
     .flex-ver-mobile {
@@ -181,16 +254,31 @@ main {
     }
 
     .hide-on-mobile {
-        visibility: collapse;
+        display: none;
     }
 
     .show-on-mobile {
-        visibility: visible;
+        display: inherit;
     }
 
-    
     .mobile-spacer-50px {
         height: 50px;
+    }
+
+    .mobile-grid30vw4x3 {
+        display: grid;
+        grid-template-columns: 30vw 30vw 30vw;
+        grid-template-rows: 30vw 30vw 30vw 30vw;
+    }
+
+    .mobile-grid30vw3x3 {
+        display: grid;
+        grid-template-columns: 30vw 30vw 30vw;
+        grid-template-rows: 30vw 30vw 30vw;
+    }
+
+    .mobile-gridgap2vw {
+        gap: 2vw;
     }
 
 }
