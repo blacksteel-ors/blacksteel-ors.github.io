@@ -20,13 +20,14 @@
 .font-color-main {
     color: white;
 }
-
 .font-color-content-1 {
     color: #fad727;
 }
-
 .font-color-content-2 {
     color: grey;
+}
+.font-color-title {
+    color: #969aff;
 }
 
 .filter-dark {

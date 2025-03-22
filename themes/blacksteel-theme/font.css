@@ -34,17 +34,14 @@
     font-family: 'InterBlack';
     src: url("Inter/static/Inter_24pt-Black.ttf")
 }
-
 @font-face {
     font-family: 'InterThin';
     src: url("Inter/static/Inter_24pt-Thin.ttf")
 }
-
 @font-face {
     font-family: 'InterLight';
     src: url("Inter/static/Inter_24pt-Light.ttf")
 }
-
 @font-face {
     font-family: 'InriaSansLight';
     src: url("Inria_Sans/InriaSans-Light.ttf")
@@ -52,6 +49,12 @@
 
 .main-font {
     font-family: InterBlack;
+}
+.title-font-1 {
+    font-family: InterBlack;
+}
+.title-font-2 {
+    font-family: InterLight;
 }
 .sub-font {
     font-family: InterThin;

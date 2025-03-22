@@ -84,6 +84,26 @@ main {
     padding: 15px;
 }
 
+.padtopbot8px{
+    padding: 8px 0px;
+}
+
+.padtop0px {
+    padding-top: 0px;
+}
+
+.padtop8px {
+    padding-top: 8px;
+}
+
+.padbot8px {
+    padding-bottom: 8px;
+}
+
+.padbot50px {
+    padding-bottom: 50px;
+}
+
 .padbot100px {
     padding-bottom: 100px;
 }
