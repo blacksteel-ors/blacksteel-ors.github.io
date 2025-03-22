@@ -13,9 +13,20 @@
 .bd-content {
     border-color: #fad727 !important;
 }
+.bd-content-2 {
+    border-color: #2f2f2f !important;
+}
 
 .font-color-main {
     color: white;
+}
+
+.font-color-content-1 {
+    color: #fad727;
+}
+
+.font-color-content-2 {
+    color: grey;
 }
 
 .filter-dark {

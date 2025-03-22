@@ -45,6 +45,11 @@
     src: url("Inter/static/Inter_24pt-Light.ttf")
 }
 
+@font-face {
+    font-family: 'InriaSansLight';
+    src: url("Inria_Sans/InriaSans-Light.ttf")
+}
+
 .main-font {
     font-family: InterBlack;
 }
@@ -53,4 +58,7 @@
 }
 .content-font {
     font-family: InterLight
+}
+.content-font-2 {
+    font-family: InriaSansLight;
 }
