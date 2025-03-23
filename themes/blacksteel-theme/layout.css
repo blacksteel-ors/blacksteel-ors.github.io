@@ -13,6 +13,26 @@
     max-width: 30px;
 }
 
+.maxsquare120 {
+    max-height: 120px;
+    max-width: 120px;
+}
+
+.minsquare70 {
+    min-width: 70px;
+    min-height: 70px;
+}
+
+.minsquare120 {
+    min-height: 120px;
+    min-width: 120px;
+}
+
+.square120 {
+    min-height: 120px;
+    min-width: 120px;
+}
+
 .square70 {
     height: 70px;
     width: 70px;
@@ -29,6 +49,10 @@
 .fill100per {
     height: 100%;
     width: 100%;
+}
+
+.minheight100per {
+    min-height: 100%;
 }
 
 .overflowy-scroll {
@@ -136,6 +160,10 @@ main {
     padding-bottom: 8px;
 }
 
+.padbot25px {
+    padding-bottom: 25px;
+}
+
 .padbot50px {
     padding-bottom: 50px;
 }
@@ -206,6 +234,12 @@ main {
     height: 0px;
 }
 
+.gridcustom1x2 {
+    display: grid;
+    grid-template-columns: calc(50% - 12.5px) calc(50% - 12.5px);
+    grid-template-rows: auto;
+}
+
 .grid12vw2x6{
     display: grid;
     grid-template-columns: 12vw 12vw 12vw 12vw 12vw 12vw;
@@ -265,6 +299,11 @@ main {
         padding: 8vw;
     }
 
+    .flex-hor-mobile {
+        display: flex;
+        flex-direction: row;
+    }
+    
     .flex-ver-mobile {
         display: flex;
         flex-direction: column;
@@ -306,4 +345,9 @@ main {
         gap: 2vw;
     }
 
+    .mobile-gridauto2x1 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
 }
