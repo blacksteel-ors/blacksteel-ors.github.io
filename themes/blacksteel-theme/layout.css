@@ -13,6 +13,11 @@
     max-width: 30px;
 }
 
+.square70 {
+    height: 70px;
+    width: 70px;
+}
+
 .max-width-80px {
     max-width: 80px;
 }
@@ -151,12 +156,20 @@ main {
     box-sizing: border-box;
 }
 
+.borbot3px {
+    border-bottom: 3px solid;
+}
+
 .bortop5px {
     border-top: 5px solid;
 }
 
 .bor3px {
     border: 3px solid;
+}
+
+.borright3px {
+    border-right: 3px solid;
 }
 
 .bor5px {
@@ -231,13 +244,25 @@ main {
     gap: 11px;
 }
 
+.gap25px {
+    gap: 25px;
+}
+
+.hide {
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
     main {
         padding: 10px;
     }
 
-    .mobile-padding2vw {
+    .mobile-padding3vw {
         padding: 3vw;
+    }
+
+    .mobile-padding8vw {
+        padding: 8vw;
     }
 
     .flex-ver-mobile {

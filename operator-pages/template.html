@@ -10,131 +10,161 @@
         <link rel="stylesheet" href="../themes/blacksteel-theme/font.css">
         <link rel="stylesheet" href="../themes/blacksteel-theme/effects.css">
     </head>
-<body class="bg-main">
-    <header class="bg-highlight flex-hor align-center main-font sticky-on-top box-shadow-medium justify-center-mobile">
-        <a href="../index.html"><img class="max-square-100px filter-dark" src="../themes/blacksteel-theme/logo.png" alt="Blacksteel Logo"></a>
-        <div class="hide-on-mobile" style="min-width: 20px;"></div>
-        <h1 class="font-xlarge hide-on-mobile">BLACKSTEEL <span class="sub-font">OPERATOR RATING SYSTEM.</span></h1>
-        <h1 class="show-on-mobile font-xxlarge sub-font">ORS</h1>
-    </header>
-    <main class="flex-ver align-center mobile-padding2vw">
-        <div>
-            <!-- Operator summary -->
-            <h1 class="title font-color-title title-font-1 text-glow-weak font-xlarge">OPERATOR <span class="title-font-2">SUMMARY</span></h1>
-            <div class="flex-hor flex-ver-mobile gridgap11px">
-                <div class="grid12vw3x3 gridgap11px mobile-grid30vw3x3 gridgap2vw">
-                    <div class="bg-content bd-content bor3px griditem2x2 overflowy-scroll hide-scroll pad25px">
-                        <!-- Summary Description -->
-                        <h1 class="no-pad-mar main-font font-xlarge font-color-content-1">OPERATOR NAME</h1>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto, explicabo omnis excepturi velit necessitatibus ullam facere unde totam nostrum? Sint nesciunt culpa tenetur enim expedita ipsum laboriosam eligendi possimus?
-                        </p>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde illo quia fugiat iusto, esse sit quis laboriosam incidunt perspiciatis placeat enim? Placeat commodi similique ratione perspiciatis eum aliquid. Optio, qui.
-                        </p>
-                        <ul class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1" style="list-style: none;">
-                            <li>+ Some plus</li>
-                            <li>- Some minus</li>
-                        </ul>
+    <body class="bg-main">
+        <header class="bg-highlight flex-hor align-center main-font sticky-on-top box-shadow-medium justify-center-mobile">
+            <a href="../index.html"><img class="max-square-100px filter-dark" src="../themes/blacksteel-theme/logo.png" alt="Blacksteel Logo"></a>
+            <div class="hide-on-mobile" style="min-width: 20px;"></div>
+            <h1 class="font-xlarge hide-on-mobile">BLACKSTEEL <span class="sub-font">OPERATOR RATING SYSTEM.</span></h1>
+            <h1 class="show-on-mobile font-xxlarge sub-font">ORS</h1>
+        </header>
+        <main class="mobile-padding8vw">
+            <h1 class="font-xlarge main-font font-color-title text-glow-medium">OPERATOR <span class="sub-font">SUMMARY</span></h1>
+            <div class="flex-hor flex-ver-mobile gap25px">
+                <div class="fill100per">
+                    <div class="flex-hor gridgap11px">
+                        <img src="operator-profiles/surtr1.webp" alt="Operator Profile" class="bor3px bd-content" id="prof-img-1">
+                        <img src="operator-profiles/surtr1.webp" alt="Operator Profile" class="bor3px bd-content" id="prof-img-2">
                     </div>
-                    <!-- Profile Images -->
-                    <div class="bg-content bd-content bor3px"><img src="operator-profiles/surtr1.webp" alt="profile" class="fill100per"></div>
-                    <div class="bg-content bd-content bor3px"><img src="operator-profiles/surtr1.webp" alt="profile" class="fill100per"></div>
-                    <!-- Operator Kits -->
-                    <div class="bg-content bd-content bor3px griditem1x3 overflowy-scroll hide-scroll pad25px">
-                        <h1 class="no-pad-mar main-font font-xlarge font-color-content-1">OPERATOR KIT SUMMARY</h1>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto, explicabo omnis excepturi velit necessitatibus ullam facere unde totam nostrum? Sint nesciunt culpa tenetur enim expedita ipsum laboriosam eligendi possimus?
-                        </p>
-                    </div>
+                    <h2 class="font-large main-font font-color-content-1 padtop8px" id="op-name"></h2>
+                    <p class="font-medium content-font-2 font-color-content-1" id="op-summary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore deleniti tenetur praesentium officia, commodi molestiae soluta modi similique asperiores quas neque expedita dolore ratione aspernatur iusto officiis amet accusantium optio.
+                    </p>
+                    <h2 class="font-large main-font font-color-content-1">TALENT 1</h2>
+                    <p class="font-medium content-font-2 font-color-content-1" id="talent-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore deleniti tenetur praesentium officia, commodi molestiae soluta modi similique asperiores quas neque expedita dolore ratione aspernatur iusto officiis amet accusantium optio.
+                    </p>
+                    <h2 class="font-large main-font font-color-content-1" id="talent-2-title">TALENT 2</h2>
+                    <p class="font-medium content-font-2 font-color-content-1" id="talent-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore deleniti tenetur praesentium officia, commodi molestiae soluta modi similique asperiores quas neque expedita dolore ratione aspernatur iusto officiis amet accusantium optio.
+                    </p>
                 </div>
-                <div class="grid12vw3x3 gridgap11px mobile-grid30vw3x3 gridgap2vw">
-                    <!-- Skill descs -->
-                    <div class="bg-content bd-content bg-highlight bor3px flex-hor justify-center align-center"><img class="max-square-90px" src="../operator-pages/operator-profiles/aak1.webp" alt="Skill"></div>
-                    <div class="bg-content bd-content bor3px griditem1x2 overflowy-scroll hide-scroll pad25px">
-                        <h1 class="no-pad-mar main-font font-xlarge font-color-content-1">SKILL</h1>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
+                <div class="pad15px show-on-mobile"></div>
+                <div class="fill100per flex-ver gridgap11px">
+                    <div class="bg-content bor3px bd-content borinner">
+                        <div class="borbot3px bd-content borinner flex-hor align-center">
+                            <div class="square70 bg-highlight flex-hor justify-center align-center">
+                                <h2 class="font-xxxlarge main-font no-pad-mar" id="skill-1-rank">S</h2>
+                            </div>
+                            <img src="operator-profiles/aak1.webp" alt="Operator Skill" class="square70 borright3px bd-content" id="skill-1-img">
+                            <div style="width: 25px;"></div>
+                            <h2 class="font-xlarge main-font font-color-content-1 no-pad-mar ">SKILL 1</h2>
+                        </div>
+                        <div class="pad25px">
+                            <p class="font-medium content-font-2 font-color-content-1 no-pad-mar" id="skill-1">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea laudantium a nihil, voluptas maiores obcaecati iusto nobis culpa quisquam, sit expedita! Veniam voluptatibus quisquam perferendis enim quam ut sed unde.
+                            </p>
+                        </div>
                     </div>
-                    <div class="bg-content bd-content bor3px griditem1x2 overflowy-scroll hide-scroll pad25px">
-                        <h1 class="no-pad-mar main-font font-xlarge font-color-content-1">SKILL</h1>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
+                    <div class="bg-content bor3px bd-content borinner" id="skill-2-block">
+                        <div class="borbot3px bd-content borinner flex-hor align-center">
+                            <div class="square70 bg-highlight flex-hor justify-center align-center">
+                                <h2 class="font-xxxlarge main-font no-pad-mar" id="skill-2-rank">S</h2>
+                            </div>
+                            <img src="operator-profiles/aak1.webp" alt="Operator Skill" class="square70 borright3px bd-content" id="skill-2-img">
+                            <div style="width: 25px;"></div>
+                            <h2 class="font-xlarge main-font font-color-content-1 no-pad-mar ">SKILL 2</h2>
+                        </div>
+                        <div class="pad25px">
+                            <p class="font-medium content-font-2 font-color-content-1 no-pad-mar" id="skill-2">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea laudantium a nihil, voluptas maiores obcaecati iusto nobis culpa quisquam, sit expedita! Veniam voluptatibus quisquam perferendis enim quam ut sed unde.
+                            </p>
+                        </div>
                     </div>
-                    <div class="bg-content bd-content bor3px flex-hor justify-center align-center"><img class="max-square-90px" src="../operator-pages/operator-profiles/aak1.webp" alt="Skill"></div>
-                    <div class="bg-content bd-content bg-highlight bor3px flex-hor justify-center align-center"><img class="max-square-90px" src="../operator-pages/operator-profiles/aak1.webp" alt="Skill"></div>
-                    <div class="bg-content bd-content bor3px griditem1x2 overflowy-scroll hide-scroll pad25px">
-                        <h1 class="no-pad-mar main-font font-xlarge font-color-content-1">SKILL</h1>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
+                    <div class="bg-content bor3px bd-content borinner" id="skill-3-block">
+                        <div class="borbot3px bd-content borinner flex-hor align-center">
+                            <div class="square70 bg-highlight flex-hor justify-center align-center">
+                                <h2 class="font-xxxlarge main-font no-pad-mar" id="skill-3-rank">S</h2>
+                            </div>
+                            <img src="operator-profiles/aak1.webp" alt="Operator Skill" class="square70 borright3px bd-content" id="skill-3-img">
+                            <div style="width: 25px;"></div>
+                            <h2 class="font-xlarge main-font font-color-content-1 no-pad-mar ">SKILL 3</h2>
+                        </div>
+                        <div class="pad25px">
+                            <p class="font-medium content-font-2 font-color-content-1 no-pad-mar" id="skill-3">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea laudantium a nihil, voluptas maiores obcaecati iusto nobis culpa quisquam, sit expedita! Veniam voluptatibus quisquam perferendis enim quam ut sed unde.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="padbot50px"></div>
+        </main>
+        <footer class="bg-content bortop5px bd-content-2 pad15px flex-hor justify-center">
+            <img src="../themes/blacksteel-theme/logo.png" alt="Blacksteel Logo" class="max-square-100px">
+            <div style="min-width: 15px;"></div>
+            <div class="flex-ver justify-center">
+                <p class="font-color-content-2 content-font-2 font-small">BLACKSTEEL GLOBAL Corp.</p>
+                <p class="font-color-content-2 content-font-2 font-small">Operator data extracted from the <a class="no-text-decor font-color-content-1" href="https://arknights.wiki.gg">Arknights Terra Wiki</a> community.</p>
+                <p class="font-color-content-2 content-font-2 font-small">Last modified: 23th March 2025.</p>
+            </div>
+        </footer>
+    </body>
+    <script>
+        // VISIBILITY ----------------------------------------------------------------------------------------------------------------
+        let profile_image_2_visible = true;
+        let talent_2_visible = true;
+        let skill_2_visible = true;
+        let skill_3_visible = true;
 
-            <!-- In depth analysis -->
-            <h1 class="title font-color-title title-font-1 text-glow-weak font-xlarge">IN DEPTH <span class="title-font-2">ANALYSIS</span></h1>
-            <!-- skills template -->
-             <div class="flex-ver gridgap11px mobile-gridgap2vw">
-                <div class="grid12vw2x6 gridgap11px mobile-grid30vw4x3 gridgap2vw">
-                    <div class="bg-content bd-content bor3px flex-hor justify-center align-center"><img class="max-square-90px" src="../operator-pages/operator-profiles/aak1.webp" alt="Skill"></div>
-                    <div class="bg-content bd-content bor3px griditem2x2 overflowy-scroll hide-scroll pad25px">
-                        <h1 class="no-pad-mar main-font font-xlarge font-color-content-1">SKILL</h1>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto, explicabo omnis excepturi velit necessitatibus ullam facere unde totam nostrum? Sint nesciunt culpa tenetur enim expedita ipsum laboriosam eligendi possimus?
-                        </p>
-                    </div>
-                    <div class="bg-content bd-content bor3px griditem2x3 overflowy-scroll hide-scroll pad25px">
-                        <h1 class="no-pad-mar main-font font-xlarge font-color-content-1">COMMENT</h1>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto, explicabo omnis excepturi velit necessitatibus ullam facere unde totam nostrum? Sint nesciunt culpa tenetur enim expedita ipsum laboriosam eligendi possimus?
-                        </p>
-                    </div>
-                </div>
-                <div class="grid12vw2x6 gridgap11px mobile-grid30vw4x3 gridgap2vw">
-                    <div class="bg-content bd-content bor3px flex-hor justify-center align-center"><img class="max-square-90px" src="../operator-pages/operator-profiles/aak1.webp" alt="Skill"></div>
-                    <div class="bg-content bd-content bor3px griditem2x2 overflowy-scroll hide-scroll pad25px">
-                        <h1 class="no-pad-mar main-font font-xlarge font-color-content-1">SKILL</h1>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto, explicabo omnis excepturi velit necessitatibus ullam facere unde totam nostrum? Sint nesciunt culpa tenetur enim expedita ipsum laboriosam eligendi possimus?
-                        </p>
-                    </div>
-                    <div class="bg-content bd-content bor3px griditem2x3 overflowy-scroll hide-scroll pad25px">
-                        <h1 class="no-pad-mar main-font font-xlarge font-color-content-1">COMMENT</h1>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto, explicabo omnis excepturi velit necessitatibus ullam facere unde totam nostrum? Sint nesciunt culpa tenetur enim expedita ipsum laboriosam eligendi possimus?
-                        </p>
-                    </div>
-                </div>
-                <div class="grid12vw2x6 gridgap11px mobile-grid30vw4x3 gridgap2vw">
-                    <div class="bg-content bd-content bor3px flex-hor justify-center align-center"><img class="max-square-90px" src="../operator-pages/operator-profiles/aak1.webp" alt="Skill"></div>
-                    <div class="bg-content bd-content bor3px griditem2x2 overflowy-scroll hide-scroll pad25px">
-                        <h1 class="no-pad-mar main-font font-xlarge font-color-content-1">SKILL</h1>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto, explicabo omnis excepturi velit necessitatibus ullam facere unde totam nostrum? Sint nesciunt culpa tenetur enim expedita ipsum laboriosam eligendi possimus?
-                        </p>
-                    </div>
-                    <div class="bg-content bd-content bor3px griditem2x3 overflowy-scroll hide-scroll pad25px">
-                        <h1 class="no-pad-mar main-font font-xlarge font-color-content-1">COMMENT</h1>
-                        <p class="no-pad-mar padtopbot8px font-1-2vw mobile-font-medium content-font-2 font-color-content-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto, explicabo omnis excepturi velit necessitatibus ullam facere unde totam nostrum? Sint nesciunt culpa tenetur enim expedita ipsum laboriosam eligendi possimus?
-                        </p>
-                    </div>
-                </div>
-             </div>
-        </div>
-    </main>
-    <footer class="bg-content bortop5px bd-content-2 pad15px flex-hor justify-center">
-        <img src="../themes/blacksteel-theme/logo.png" alt="Blacksteel Logo" class="max-square-100px">
-        <div style="min-width: 15px;"></div>
-        <div class="flex-ver justify-center">
-            <p class="font-color-content-2 content-font-2 font-small">BLACKSTEEL GLOBAL Corp.</p>
-            <p class="font-color-content-2 content-font-2 font-small">Operator data extracted from the <a class="no-text-decor font-color-content-1" href="https://arknights.wiki.gg">Arknights Terra Wiki</a> community.</p>
-            <p class="font-color-content-2 content-font-2 font-small">Last modified: 22th March 2025.</p>
-        </div>
-    </footer>
-</body>
+        // IMAGES --------------------------------------------------------------------------------------------------------------------
+        let profile_1_imgpath = "operator-profiles/surtr1.webp";
+        let profile_2_imgpath = "operator-profiles/surtr1.webp";
+        let skill_1_imgpath = "operator-profiles/surtr1.webp";
+        let skill_2_imgpath = "operator-profiles/surtr1.webp";
+        let skill_3_imgpath = "operator-profiles/surtr1.webp";
+
+        // METADATA ------------------------------------------------------------------------------------------------------------------
+        let operator_name = "SURTR";
+        let operator_summary = 
+        "Summary: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea laudantium a nihil, voluptas maiores obcaecati iusto nobis culpa quisquam, sit expedita! Veniam voluptatibus quisquam perferendis enim quam ut sed unde.";
+        
+        // TALENT --------------------------------------------------------------------------------------------------------------------
+        let talent_1 = 
+        "Talent 1: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea laudantium a nihil, voluptas maiores obcaecati iusto nobis culpa quisquam, sit expedita! Veniam voluptatibus quisquam perferendis enim quam ut sed unde.";
+        let talent_2 = 
+        "Talent 2: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea laudantium a nihil, voluptas maiores obcaecati iusto nobis culpa quisquam, sit expedita! Veniam voluptatibus quisquam perferendis enim quam ut sed unde.";
+
+        // SKILL ---------------------------------------------------------------------------------------------------------------------
+        let skill_1_rank = "A";
+        let skill_1_summary = 
+        "S1: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea laudantium a nihil, voluptas maiores obcaecati iusto nobis culpa quisquam, sit expedita! Veniam voluptatibus quisquam perferendis enim quam ut sed unde.";
+        let skill_2_rank = "B";
+        let skill_2_summary = 
+        "S2: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea laudantium a nihil, voluptas maiores obcaecati iusto nobis culpa quisquam, sit expedita! Veniam voluptatibus quisquam perferendis enim quam ut sed unde.";
+        let skill_3_rank = "S";
+        let skill_3_summary = 
+        "S3: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea laudantium a nihil, voluptas maiores obcaecati iusto nobis culpa quisquam, sit expedita! Veniam voluptatibus quisquam perferendis enim quam ut sed unde.";
+        
+        // IMPLEMENTATION ------------------------------------------------------------------------------------------------------------
+        document.getElementById("prof-img-1").setAttribute("src", profile_1_imgpath);
+        if (!profile_image_2_visible) {
+            document.getElementById("prof-img-2").classList.add("hide");
+        } else {
+            document.getElementById("prof-img-2").setAttribute("src", profile_2_imgpath);
+        }
+        if (!talent_2_visible) {
+            document.getElementById("talent-2-title").classList.add("hide");
+            document.getElementById("talent-2").classList.add("hide");
+        }
+        document.getElementById("skill-1-img").setAttribute("src", skill_1_imgpath);
+        document.getElementById("skill-1-rank").textContent = skill_1_rank;
+        if (!skill_2_visible) {
+            document.getElementById("skill-2-block").classList.add("hide");
+        } else {
+            document.getElementById("skill-2-img").setAttribute("src", skill_2_imgpath);
+            document.getElementById("skill-2-rank").textContent = skill_2_rank;
+        }
+        if (!skill_3_visible) {
+            document.getElementById("skill-3-block").classList.add("hide");
+        } else {
+            document.getElementById("skill-3-img").setAttribute("src", skill_3_imgpath);
+            document.getElementById("skill-3-rank").textContent = skill_3_rank;
+        }
+        document.getElementById("op-name").textContent = operator_name;
+        document.getElementById("op-summary").textContent = operator_summary;
+        document.getElementById("talent-1").textContent = talent_1;
+        document.getElementById("talent-2").textContent = talent_2;
+        document.getElementById("skill-1").textContent = skill_1_summary;
+        document.getElementById("skill-2").textContent = skill_2_summary;
+        document.getElementById("skill-3").textContent = skill_3_summary;
+    </script>
 </html>
